@@ -1,0 +1,22 @@
+one-tsp-sugar
+
+Implemented features:
+
+August 2013 - 2 August 2015 
+	- Reads in XML-formatted TSPLIB files, as available at
+	  http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/XML-TSPLIB/instances/
+	- Provides the following solver implementations:
+		- Nearest neighbour
+		- Hill-climbing
+		- Simulated annealing
+		- Beam search
+		- Tabu search
+16 September 2015
+    - Euclidean TSP visualisation using GraphViz
+
+TODO:
+    - Application in continuous-line drawing (the Marilyn Monroe photo)
+	- Improving existing solver performances
+	- Adding more solver implementations
+		- Treating the Euclidean special case (algorithm in CLRS?)
+		- Genetic algorithm
