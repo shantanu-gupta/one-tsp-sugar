@@ -36,7 +36,7 @@ public class Main {
 		System.out.println(bestTour.getCost());
 		
 		try {
-			new DotFileWriter(bestTour, nodes).writeFile("./output/tsp_out.dot");
+			new DotFileWriter(bestTour, nodes).writeFile("./output/tsp_out_ch130.dot");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
